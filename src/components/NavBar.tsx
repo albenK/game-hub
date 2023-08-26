@@ -3,7 +3,6 @@ import logo from '../assets/logo.webp';
 
 
 const NavBar = () => {
-    console.log(logo);
     return (
         <HStack>
             <Image src={logo} boxSize='60px'/>
